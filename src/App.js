@@ -1,16 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
+import "./css/style.css"
+import "./css/font-awesome.css"
+import "./css/font-awesome.min.css"
+import "./css/variable.css"
+import "./css/responsive.css"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-   
-      </header>
+     
     </div>
   );
 }
