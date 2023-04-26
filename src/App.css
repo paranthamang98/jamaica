@@ -1,0 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+.sections {
+  float: left;
+  width: 100%;
+}
