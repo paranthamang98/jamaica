@@ -17,11 +17,19 @@ import Home from './pages/home';
 import Categories from './pages/categories';
 import ProductList from './pages/ProductList ';
 import AdditinalInformation from './pages/additinalInformation';
+import Shopping from './pages/shopping';
+import MyOrders from './pages/myOrders';
+import LimitedPeriodOffers from './pages/limitedPeriodOffersPage';
+import AboutUs from './pages/aboutUs';
+import ContactUs from './pages/contactUs';
+import FAQ from './pages/fAQ';
+import TermsofUse from './pages/termsofUse';
+import PrivacyStatement from './pages/privacyStatement';
 
 function App() {
   return (
     <div className="App">
-  <AdditinalInformation/>
+  <PrivacyStatement/>
     </div>
   );
 }

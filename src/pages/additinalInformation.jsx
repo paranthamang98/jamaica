@@ -1,6 +1,7 @@
 import React from "react";
 import LayOut from "../utlits/layOut";
 import PageHeader from "../component/pageHeader";
+import Recommendations from "../component/recommendations";
 
 const AdditinalInformation = () => {
   return (
@@ -196,7 +197,7 @@ const AdditinalInformation = () => {
                             cx="80"
                             cy="80"
                             r="67"
-                            style="--percent: 30"
+                            style={{strokeDashoffset: `calc(625px - (625px * ${"60"}) / 100)`}}
                           ></circle>
                         </svg>
                         <div class="number">
@@ -416,106 +417,11 @@ const AdditinalInformation = () => {
             <div class="combo_section">
               <h3 class="prodectName_inner">Combo Offer</h3>
               <div class="recomm additinal_info">
-                <div class="recomm_card">
-                  <div class="recomm_card_img">
-                    {/* <img src="./assets/images/recomm_1.png" alt="img" /> */}
-                  </div>
-                  <div class="recomm_card_header">
-                    <h4 class="recomm_card_header_title">
-                      Grilled Veg Sandwich
-                    </h4>
-                    <div class="rating_star">
-                      <p class="rating_section">
-                        4.2 
-                        {/* <img src="./assets/images/star_icon.svg" alt="" /> */}
-                      </p>
-                      <p class="rating_section_text">Ratings</p>
-                    </div>
-                    <div class="recomm_card_price pb-3">
-                      <p>₹200.00</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="recomm_card">
-                  <div class="recomm_card_img">
-                    {/* <img src="./assets/images/recomm_2.png" alt="img" /> */}
-                  </div>
-                  <div class="recomm_card_header">
-                    <h4 class="recomm_card_header_title">
-                      Choco chip Cold Coffee
-                    </h4>
-                    <div class="rating_star">
-                      <p class="rating_section">
-                        4.2
-                         {/* <img src="./assets/images/star_icon.svg" alt="" /> */}
-                      </p>
-                      <p class="rating_section_text">Ratings</p>
-                    </div>
-                    <div class="recomm_card_price pb-3">
-                      <p>₹200.00</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="recomm_card">
-                  <div class="recomm_card_img">
-                    {/* <img src="./assets/images/recomm_2.png" alt="img" /> */}
-                  </div>
-                  <div class="recomm_card_header">
-                    <h4 class="recomm_card_header_title">
-                      Choco chip Cold Coffee
-                    </h4>
-                    <div class="rating_star">
-                      <p class="rating_section">
-                        4.2 
-                        {/* <img src="./assets/images/star_icon.svg" alt="" /> */}
-                      </p>
-                      <p class="rating_section_text">Ratings</p>
-                    </div>
-                    <div class="recomm_card_price pb-3">
-                      <p>₹200.00</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="recomm_card">
-                  <div class="recomm_card_img">
-                    {/* <img src="./assets/images/recomm_2.png" alt="img" /> */}
-                  </div>
-                  <div class="recomm_card_header">
-                    <h4 class="recomm_card_header_title">
-                      Choco chip Cold Coffee
-                    </h4>
-                    <div class="rating_star">
-                      <p class="rating_section">
-                        4.2 
-                        {/* <img src="./assets/images/star_icon.svg" alt="" /> */}
-                      </p>
-                      <p class="rating_section_text">Ratings</p>
-                    </div>
-                    <div class="recomm_card_price pb-3">
-                      <p>₹200.00</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="recomm_card">
-                  <div class="recomm_card_img">
-                    {/* <img src="./assets/images/recomm_2.png" alt="img" /> */}
-                  </div>
-                  <div class="recomm_card_header">
-                    <h4 class="recomm_card_header_title">
-                      Choco chip Cold Coffee
-                    </h4>
-                    <div class="rating_star">
-                      <p class="rating_section">
-                        4.2 
-                        {/* <img src="./assets/images/star_icon.svg" alt="" /> */}
-                      </p>
-                      <p class="rating_section_text">Ratings</p>
-                    </div>
-                    <div class="recomm_card_price pb-3">
-                      <p>₹200.00</p>
-                    </div>
-                  </div>
-                </div>
+<Recommendations/>
+<Recommendations/>
+<Recommendations/>
+<Recommendations/>
+<Recommendations/>
               </div>
               <div class="combo_offer_price section">
                 <h4 class="combo_total">

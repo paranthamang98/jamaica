@@ -6,6 +6,8 @@ import {
   Language_list,
   Shopping_cart,
   User } from '../utlits/images'
+import {Login ,Verification , Successfully,Registration} from './popup'
+ 
   
 
 
@@ -114,6 +116,10 @@ function Header() {
             </div>
           </div>
         </div>
+        <Login/>
+        <Verification/>
+        <Successfully/>
+        <Registration/>
     </>
   )
 }
