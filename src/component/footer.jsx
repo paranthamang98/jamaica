@@ -4,6 +4,7 @@ import {
     Visa,
     Patm ,
     Phonepe} from "../utlits/images";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -50,7 +51,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a class="twitter active" href="">
+                  <a class="twitter " href="">
                     <i class="fa fa-twitter"></i>
                   </a>
                 </li>
@@ -70,31 +71,31 @@ const Footer = () => {
               <h3>Quick Links</h3>
               <ul>
                 <li>
-                  <a href="./home.html">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <a href="./aboutus.html">About us</a>
+                  <Link to="/aboutUs">About us</Link>
                 </li>
                 <li>
-                  <a href="./limitedoffers.html">Limited Offer</a>
+                  <Link to="/limitedOffers">Limited Offer</Link>
                 </li>
                 <li>
-                  <a href="./latestoffers.html">Latest Offer</a>
+                  <Link to="/limitedOffers">Latest Offer</Link>
                 </li>
                 <li>
-                  <a href="./contactus.html">Contact us</a>
+                  <Link to="/contactUs">Contact us</Link>
                 </li>
                 <li>
                   <a href="./contactus.html">Responsibility</a>
                 </li>
                 <li>
-                  <a href="./contactus.html">Privacy statement</a>
+                  <Link to="/privacyStatement">Privacy statement</Link>
                 </li>
                 <li>
-                  <a href="./contactus.html">Terms of use</a>
+                  <Link to="./termOfUse">Terms of use</Link>
                 </li>
                 <li>
-                  <a href="./FAQ.html">FAQ</a>
+                  <Link to="/FAQ">FAQ</Link>
                 </li>
                 <li>
                   <a href="./terms&policies.html">Help Centre</a>

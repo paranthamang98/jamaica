@@ -7,11 +7,14 @@ import {
   Shopping_cart,
   User } from '../utlits/images'
 import {Login ,Verification , Successfully,Registration} from './popup'
+import { Link, useLocation } from 'react-router-dom'
+
  
   
 
 
 function Header() {
+  const pathname = useLocation().pathname
   return (
     <>
     <header>
@@ -54,33 +57,33 @@ function Header() {
       </header>
       <div class="navbar container">
           <div class="logo">
-            <a href="./home.html"
+            <Link to="/"
               ><img src={Logo} alt=""
-            /></a>
+            /></Link>
           </div>
           <ul class="navlist">
-            <a href="./home.html">
-              <li class="navitem active">Home</li>
-            </a>
+            <Link to="/"  >
+              <li className={`${pathname === '/' ? "active navitem" : "navitem"}`}>Home</li>
+            </Link>
 
-            <a href="./limitedoffers.html">
-              <li class="navitem">Limited Offer</li>
-            </a>
-            <a href="./latestoffers.html">
-              <li class="navitem">Latest Offer</li>
-            </a>
-            <a href="./aboutus.html">
-              <li class="navitem">About us</li>
-            </a>
-            <a href="./contactus.html">
-              <li class="navitem">Contact Us</li>
-            </a>
+            <Link to="/limitedOffers" >
+              <li  className={`${pathname === '/limitedOffers' ? "active navitem" : "navitem"}`}>Limited Offer</li>
+            </Link>
+            <Link to="/latestOffers">
+              <li className={`${pathname === '/latestOffers' ? "active navitem" : "navitem"} `}>Latest Offer</li>
+            </Link>
+            <Link to="/aboutUs">
+              <li className={`${pathname === '/aboutUs' ? "active navitem" : "navitem"} `}>About us</li>
+            </Link>
+            <Link to="/contactUs">
+              <li className={`${pathname === '/contactUs' ? "active navitem" : "navitem"} `}>Contact Us</li>
+            </Link>
           </ul>
           <div class="userList">
             <span aria-label="5" class="shopping_icon">
-              <a href="./addtocart.html">
+              <Link to="/addToCart">
                 <img src={Shopping_cart} alt="shopping" />
-              </a>
+              </Link>
             </span>
             <span
               class="user_icon"

@@ -14,17 +14,29 @@ const Home = () => {
     <>
     <LayOut>
     <HomeBanner/>
-    <InnerSectionHeader>
-        <LatestOffersCard />
+    <InnerSectionHeader subtile={"Latest offers"} title={"New Products"}>
+      <div className="latestoff">
+      <LatestOffersCard title={"Espresso Americano "} offerrang ={"25"}  img ={""} />
+      </div>
+        
     </InnerSectionHeader>
-    <InnerSectionHeader>
-        <Recommendations/>
+    <InnerSectionHeader subtile={"Recommendations"} title={"Frequently used products"}>
+      <div className="recomm">
+      <Recommendations offer={"15%"}  title ={"Grilled Veg Sandwich"} price={"$20.00"} />
+      </div>
+      
     </InnerSectionHeader>
-    <InnerSectionHeader>
-        <CategoriesCard/>
+    <InnerSectionHeader subtile={"Categories"} title={"List of Category"}>
+      <div className="section_main">
+      <CategoriesCard img={""}  titlepart={"Bestsellers"} count={"10 Items"}/>
+      </div>
+   
     </InnerSectionHeader>
-    <InnerSectionHeader>
-        <LimitedperiodOffer/>
+    <InnerSectionHeader subtile={"Limited period Offer "} title={"Times of period"}>
+      <div className="limited">
+      <LimitedperiodOffer title={"Beyond meat burger"} innerSection={"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore."} offerPrice={"40% off"} sec={"45"} min={"45"} hour={"02"}/>
+      </div>
+       
     </InnerSectionHeader>
     </LayOut>
    

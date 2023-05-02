@@ -9,3 +9,6 @@
     float: left;
     width: 100%;
 }
+.recomm_card{
+  min-width: 300px;
+}
