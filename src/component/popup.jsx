@@ -1,6 +1,14 @@
 import React from "react";
+import { useForm } from "react-hook-form";
+import { DevTool } from "@hookform/devtools";
 
 export const Login = () => {
+  const form = useForm();
+  const { register, control , handleSubmit, formState}  = form;
+  const { errors} = formState;
+  const onSubmit = data =>{
+    console.log("form in submite" ,data)
+  }
   return (
     <>
       <div
@@ -20,29 +28,54 @@ export const Login = () => {
                 aria-label="Close"
               ></button>
             </div>
-            <div class="login_main">
+            <form class="login_main" onSubmit={handleSubmit(onSubmit)}  noValidate>
               <div class="form_section">
                 <h1 class="login_header">Login in to Jamaica Craft</h1>
                 <p class="login_details">
                   Please enter your credentials to proceed
                 </p>
                 <div class="input_form flag_section">
-                  <label for="phone">Mobile Number</label>
+                  <label htmlFor="phone2">Mobile Number</label>
                   <input
                     class="form-control"
                     type="number"
                     id="phone2"
                     required
-                    onkeydown="return event.keyCode !== 69"
+                  
+                    {...register("username" ,{
+                      required: {
+                        value:true,
+                        message: "user is required"}
+                    })}
                   />
+                  {errors.username?.message && <p>{errors.username?.message}</p>}
+                </div>
+                <div class="input_form flag_section">
+                  <label htmlFor="email">Email Number</label>
+                  <input
+                    class="form-control"
+                    type="email"
+                    id="email"
+                    required
+            
+                    {...register("email" ,{
+                    pattern: {
+                      value:
+                      /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/,
+                      message:"invalid email format"
+                    }
+                    })}
+                  />
+                  {errors.email?.message && <p>{errors.email?.message}</p>}
                 </div>
                 <div class="btn_section">
                   <button
                     class="yellow_btn w-100"
-                    data-bs-toggle="modal"
-                    data-bs-target="#verification"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
+                    // data-bs-toggle="modal"
+                    // data-bs-target="#verification"
+                    // data-bs-dismiss="modal"
+                    // aria-label="Close"
+                    type="submite"
                   >
                     Continue
                   </button>
@@ -68,7 +101,8 @@ export const Login = () => {
                   <span class="yellow_text">Register</span>
                 </p>
               </div>
-            </div>
+            </form>
+            <DevTool control={control} />
           </div>
         </div>
       </div>
