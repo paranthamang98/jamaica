@@ -9,8 +9,8 @@ const AboutUs = () => {
     <LayOut>
         <PageHeader/>
         <InnerSectionHeader>
-        <div class="aboutus_main">
-            <p class="aboutus_content">
+        <div className="aboutus_main">
+            <p className="aboutus_content">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -23,31 +23,31 @@ const AboutUs = () => {
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt.
             </p>
-            <div class="aboutus_vedio_content">
+            <div className="aboutus_vedio_content">
               <img src="./assets/images/aboutus_vedio_img.png" alt=""/>
             </div>
           </div>
         </InnerSectionHeader>
-        <div class="container-fluid about_mid_sec_bg">
-        <div class="container">
-          <div class="about_mid_sec">
-            <div class="about_mid_sec_content">
+        <div className="container-fluid about_mid_sec_bg">
+        <div className="container">
+          <div className="about_mid_sec">
+            <div className="about_mid_sec_content">
               <img src="./assets/images/aboutus-coff.svg" alt=""/>
-              <div class="about_content_text">
+              <div className="about_content_text">
                 <span>220</span>
                 <p>Varieties of Coffee</p>
               </div>
             </div>
-            <div class="about_mid_sec_content">
+            <div className="about_mid_sec_content">
               <img src="./assets/images/aboutus-shop.svg" alt=""/>
-              <div class="about_content_text">
+              <div className="about_content_text">
                 <span>305</span>
                 <p>Brand of Coffee Shops</p>
               </div>
             </div>
-            <div class="about_mid_sec_content">
+            <div className="about_mid_sec_content">
               <img src="./assets/images/aboutus-calnder.svg" alt=""/>
-              <div class="about_content_text">
+              <div className="about_content_text">
                 <span>12</span>
                 <p>Years of Jamaica Craft</p>
               </div>
@@ -56,7 +56,7 @@ const AboutUs = () => {
         </div>
       </div>
         <InnerSectionHeader>
-        <div class="aboutus_image_content">
+        <div className="aboutus_image_content">
           <img src="./assets/images/aboutus_image_content.png" alt=""/>
         </div>
             </InnerSectionHeader>

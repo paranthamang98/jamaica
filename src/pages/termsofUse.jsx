@@ -7,10 +7,10 @@ const TermsofUse = () => {
     <>
     <LayOut>
         <PageHeader/>
-        <div class="container">
-        <div class="sections">
-          <div class="section_header">
-            <div class="terms">
+        <div className="container">
+        <div className="sections">
+          <div className="section_header">
+            <div className="terms">
               <ul>
                 <li>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

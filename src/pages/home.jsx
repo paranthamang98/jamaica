@@ -12,6 +12,7 @@ import LayOut from '../utlits/layOut'
 const Home = () => {
   return (
     <>
+    
     <LayOut>
     <HomeBanner/>
     <InnerSectionHeader subtile={"Latest offers"} title={"New Products"}>
@@ -38,9 +39,10 @@ const Home = () => {
       </div>
        
     </InnerSectionHeader>
+
     </LayOut>
    
-    
+ 
       
     </>
   )

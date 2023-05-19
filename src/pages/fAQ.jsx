@@ -7,16 +7,16 @@ const FAQ = () => {
     <>
     <LayOut>
         <PageHeader/>
-        <div class="container">
-        <div class="sections">
-          <div class="section_header">
-            <div class="terms">
-              <h4 class="subscribe_title">Frequently Asked Questions</h4>
-              <div class="accordion" id="frequentlyAccordion">
-                <div class="accordion-item faq_accordion">
-                  <h2 class="accordion-header" id="headingOne">
+        <div className="container">
+        <div className="sections">
+          <div className="section_header">
+            <div className="terms">
+              <h4 className="subscribe_title">Frequently Asked Questions</h4>
+              <div className="accordion" id="frequentlyAccordion">
+                <div className="accordion-item faq_accordion">
+                  <h2 className="accordion-header" id="headingOne">
                     <button
-                      class="accordion-button"
+                      className="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseOne"
@@ -28,11 +28,11 @@ const FAQ = () => {
                   </h2>
                   <div
                     id="collapseOne"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="headingOne"
                     data-bs-parent="#frequentlyAccordion"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <p>
                         Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -44,10 +44,10 @@ const FAQ = () => {
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item faq_accordion">
-                  <h2 class="accordion-header" id="headingTwo">
+                <div className="accordion-item faq_accordion">
+                  <h2 className="accordion-header" id="headingTwo">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseTwo"
@@ -60,11 +60,11 @@ const FAQ = () => {
                   </h2>
                   <div
                     id="collapseTwo"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="headingTwo"
                     data-bs-parent="#frequentlyAccordion"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <p>
                         Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -76,10 +76,10 @@ const FAQ = () => {
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item faq_accordion">
-                  <h2 class="accordion-header" id="headingThree">
+                <div className="accordion-item faq_accordion">
+                  <h2 className="accordion-header" id="headingThree">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseThree"
@@ -91,11 +91,11 @@ const FAQ = () => {
                   </h2>
                   <div
                     id="collapseThree"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="headingThree"
                     data-bs-parent="#frequentlyAccordion"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <p>
                         Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -107,10 +107,10 @@ const FAQ = () => {
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item faq_accordion">
-                  <h2 class="accordion-header" id="heading ">
+                <div className="accordion-item faq_accordion">
+                  <h2 className="accordion-header" id="heading ">
                     <button
-                      class="accordion-button"
+                      className="accordion-button"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseFoure"
@@ -123,11 +123,11 @@ const FAQ = () => {
                   </h2>
                   <div
                     id="collapseFoure"
-                    class="accordion-collapse collapse show"
+                    className="accordion-collapse collapse show"
                     aria-labelledby="headingFoure"
                     data-bs-parent="#frequentlyAccordion"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <p>
                         Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -139,10 +139,10 @@ const FAQ = () => {
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item faq_accordion">
-                  <h2 class="accordion-header" id="headingFive">
+                <div className="accordion-item faq_accordion">
+                  <h2 className="accordion-header" id="headingFive">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseFive"
@@ -154,11 +154,11 @@ const FAQ = () => {
                   </h2>
                   <div
                     id="collapseFive"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="headingFive"
                     data-bs-parent="#frequentlyAccordion"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <p>
                         Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -170,10 +170,10 @@ const FAQ = () => {
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item faq_accordion">
-                  <h2 class="accordion-header" id="headingSix">
+                <div className="accordion-item faq_accordion">
+                  <h2 className="accordion-header" id="headingSix">
                     <button
-                      class="accordion-button collapsed"
+                      className="accordion-button collapsed"
                       type="button"
                       data-bs-toggle="collapse"
                       data-bs-target="#collapseSix"
@@ -186,11 +186,11 @@ const FAQ = () => {
                   </h2>
                   <div
                     id="collapseSix"
-                    class="accordion-collapse collapse"
+                    className="accordion-collapse collapse"
                     aria-labelledby="headingSix"
                     data-bs-parent="#frequentlyAccordion"
                   >
-                    <div class="accordion-body">
+                    <div className="accordion-body">
                       <p>
                         Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -207,6 +207,7 @@ const FAQ = () => {
           </div>
         </div>
       </div>
+     
     </LayOut>
     </>
   )

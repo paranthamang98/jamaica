@@ -7,12 +7,12 @@ const PrivacyStatement = () => {
     <>
     <LayOut>
         <PageHeader/>
-        <div class="container">
-        <div class="sections">
-          <div class="section_header">
+        <div className="container">
+        <div className="sections">
+          <div className="section_header">
 
-            <div class="terms">
-              <h4 class="subscribe_title pt-0 pb-4">Acknowledgement</h4>
+            <div className="terms">
+              <h4 className="subscribe_title pt-0 pb-4">Acknowledgement</h4>
               <ul>
                 <li>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

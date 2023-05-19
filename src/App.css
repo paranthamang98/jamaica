@@ -12,3 +12,6 @@
 .recomm_card{
   min-width: 300px;
 }
+.erroe_msg{
+  color: rgb(160, 21, 21);
+}

@@ -8,69 +8,69 @@ const ContactUs = () => {
     <LayOut>
         <PageHeader/>
         <div className="container">
-        <div class="contactUs contactUs_icon_white">
-              <div class="footer_contact_us">
-                <h3 class="contactUs_header contactUs_header_white">
+        <div className="contactUs contactUs_icon_white">
+              <div className="footer_contact_us">
+                <h3 className="contactUs_header contactUs_header_white">
                   Contact us
                 </h3>
                 <ul>
                   <li>
-                    <span><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                    <span><i className="fa fa-mobile" aria-hidden="true"></i></span>
                     <p>601-586-3257</p>
                   </li>
                   <li>
-                    <span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                    <span><i className="fa fa-envelope-o" aria-hidden="true"></i></span>
                     <p>hello@quantamplus.com.au</p>
                   </li>
                   <li>
-                    <span><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <span><i className="fa fa-map-marker" aria-hidden="true"></i>
                     </span>
                     <p>2320 Walnut Street, Jackson, United States - 39201</p>
                   </li>
                 </ul>
-                <div class="footer_quantam_plus">
+                <div className="footer_quantam_plus">
                   <ul>
                     <li>
-                      <a class="facebook" href=""><i class="fa fa-facebook"></i></a>
+                      <a className="facebook" href=""><i className="fa fa-facebook"></i></a>
                     </li>
                     <li>
-                      <a class="twitter " href=""><i class="fa fa-twitter"></i></a>
+                      <a className="twitter " href=""><i className="fa fa-twitter"></i></a>
                     </li>
                     <li>
-                      <a class="linkedin" href=""><i class="fa fa-linkedin"></i></a>
+                      <a className="linkedin" href=""><i className="fa fa-linkedin"></i></a>
                     </li>
                     <li>
-                      <a class="youtube" href=""><i class="fa fa-youtube-play"></i></a>
+                      <a className="youtube" href=""><i className="fa fa-youtube-play"></i></a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div class="contactUs_get">
-                <h3 class="contactUs_header">Get into Touch</h3>
-                <div class="form_group">
-                  <div class="input_form">
+              <div className="contactUs_get">
+                <h3 className="contactUs_header">Get into Touch</h3>
+                <div className="form_group">
+                  <div className="input_form">
                     <label>Last Name</label>
                     <input type="text" required="" value="Ruban"/>
                   </div>
-                  <div class="input_form">
+                  <div className="input_form">
                     <label>Last Name</label>
                     <input type="text" required="" value="Raj"/>
                   </div>
  
-                  <div class="input_form flag_section">
+                  <div className="input_form flag_section">
                     <label>Telephone</label>
-                    <input class="form-control" type="tel" id="phone" value=""/>
+                    <input className="form-control" type="tel" id="phone" value=""/>
                   </div>
-                  <div class="input_form">
+                  <div className="input_form">
                     <label>Email Address</label>
                     <input type="text" required=""/>
                   </div>
                 </div>
-                <div class="input_form mt-3">
+                <div className="input_form mt-3">
                   <textarea id="" cols="100" rows="4" placeholder="Enter your Message"></textarea>
                 </div>
-                <div class="btn_section">
-                  <button class="yellow_btn">Send Message</button>
+                <div className="btn_section">
+                  <button className="yellow_btn">Send Message</button>
                 </div>
               </div>
             </div>

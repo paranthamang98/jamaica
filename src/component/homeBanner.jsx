@@ -3,18 +3,18 @@ import React from 'react'
 const HomeBanner = () => {
   return (
     <>
-                    <section class="home_banner">
+                    <section className="home_banner">
         <div
           id="carouselExampleInterval"
-          class="carousel slide"
+          className="carousel slide"
           data-bs-ride="carousel"
         >
-          <div class="carousel-indicators">
+          <div className="carousel-indicators">
             <button
               type="button"
               data-bs-target="#carouselExampleInterval"
               data-bs-slide-to="0"
-              class="active"
+              className="active"
               aria-current="true"
               aria-label="Slide 1"
             ></button>
@@ -31,15 +31,15 @@ const HomeBanner = () => {
               aria-label="Slide 3"
             ></button>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="home_banner_slider_top">
-                <div class="container h-100">
-                  <div class="home_banner_slider">
-                    <button class="yellow_btn">
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <div className="home_banner_slider_top">
+                <div className="container h-100">
+                  <div className="home_banner_slider">
+                    <button className="yellow_btn">
                       Now You Can Feel The ENERGY
                     </button>
-                    <h1 class="home_banner_slider_header">
+                    <h1 className="home_banner_slider_header">
                       Start your day with a <br />
                       Black coffee
                     </h1>
@@ -47,14 +47,14 @@ const HomeBanner = () => {
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="home_banner_slider_top">
-                <div class="container h-100">
-                  <div class="home_banner_slider">
-                    <button class="yellow_btn">
+            <div className="carousel-item">
+              <div className="home_banner_slider_top">
+                <div className="container h-100">
+                  <div className="home_banner_slider">
+                    <button className="yellow_btn">
                       Now You Can Feel The ENERGY
                     </button>
-                    <h1 class="home_banner_slider_header">
+                    <h1 className="home_banner_slider_header">
                       Start your day with a <br />
                       Black coffee
                     </h1>
@@ -62,14 +62,14 @@ const HomeBanner = () => {
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="home_banner_slider_top">
-                <div class="container h-100">
-                  <div class="home_banner_slider">
-                    <button class="yellow_btn">
+            <div className="carousel-item">
+              <div className="home_banner_slider_top">
+                <div className="container h-100">
+                  <div className="home_banner_slider">
+                    <button className="yellow_btn">
                       Now You Can Feel The ENERGY
                     </button>
-                    <h1 class="home_banner_slider_header">
+                    <h1 className="home_banner_slider_header">
                       Start your day with a <br />
                       Black coffee
                     </h1>

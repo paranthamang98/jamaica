@@ -4,9 +4,9 @@ const PageHeader = (props) => {
     const {title } = props
   return (
     <>
-    <div class="pageg_header">
-      <h1 class="section_header_sub_title">{title && title}</h1>
-      <ul class="breadcrumbs">
+    <div className="pageg_header">
+      <h1 className="section_header_sub_title">{title && title}</h1>
+      <ul className="breadcrumbs">
         <li>Home</li>
         <li>Limited Offers</li>
       </ul>
