@@ -36,7 +36,7 @@ function Header() {
               id="looking"
               placeholder="Looking for something special "
             />
-            <label for="#looking">
+            <label htmlFor="#looking">
               <img src={Scicon} alt="icon" />
             </label>
           </div>

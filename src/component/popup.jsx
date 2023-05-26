@@ -22,7 +22,7 @@ export const Login = () => {
       <div
         className="modal fade"
         id="login"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="loginLabel"
         aria-hidden="true"
       >
@@ -43,7 +43,7 @@ export const Login = () => {
                   Please enter your credentials to proceed
                 </p>
                 <div className="input_form ">
-                  <label htmlFor="phone">Mobile Number</label>
+                  <label htmlhtmlFor="phone">Mobile Number</label>
                   <input
                     className="form-control"
                     type="number"
@@ -107,7 +107,7 @@ export const Verification = () => {
       <div
         className="modal fade"
         id="verification"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="verificationLabel"
         aria-hidden="true"
       >
@@ -162,7 +162,7 @@ export const Successfully = () => {
       <div
         className="modal fade"
         id="account"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="accountLabel"
         aria-hidden="true"
       >
@@ -208,7 +208,7 @@ export const Registration = () => {
       <div
         className="modal fade"
         id="registration"
-        tabindex="-1"
+        tabIndex="-1"
         aria-labelledby="registrationLabel"
         aria-hidden="true"
       >
@@ -241,13 +241,13 @@ export const Registration = () => {
                   <input type="date" required />
                 </div>
                 <div className="input_form flag_section">
-                  <label for="">Mobile No</label>
+                  <label htmlFor="">Mobile No</label>
                   <input
                     className="form-control"
                     type="number"
                     id="phone"
                     value=""
-                    onkeydown="return event.keyCode !== 69"
+                    onKeyDown="return event.keyCode !== 69"
                     required
                   />
                 </div>
@@ -259,7 +259,7 @@ export const Registration = () => {
                   <div>
                     <p className="">
                       <input type="checkbox" name="size" id="condition" />
-                      <label for="condition">
+                      <label htmlFor="condition">
                         I agree with
                         <span className="yellow_text">Terms & Conditions</span>
                       </label>

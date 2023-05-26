@@ -33,7 +33,7 @@ function MyOrders() {
                             <div className="img-section">
                               <img className="img"/>
                             </div>
-                            <label className="icon_section_profile" for="buttonSection"
+                            <label className="icon_section_profile" htmlFor="buttonSection"
                               ><img src="./assets/images/img_uploader.svg" alt=""
                             /></label>
                             <input
@@ -62,7 +62,7 @@ function MyOrders() {
                           />
                         </div>
                         <div className="input_form">
-                          <label for="datesection"> <img src="./assets/images/profile-date.svg" alt=""/>Date of Birth</label>
+                          <label htmlFor="datesection"> <img src="./assets/images/profile-date.svg" alt=""/>Date of Birth</label>
                           <input
                             type="text"
                             id="datesection"
@@ -71,7 +71,7 @@ function MyOrders() {
                           />
                         </div>
                         <div className="input_form flag_section">
-                          <label for=""><img src="./assets/images/profile-phone.svg" alt=""/>Mobile Number</label>
+                          <label htmlFor=""><img src="./assets/images/profile-phone.svg" alt=""/>Mobile Number</label>
                           <input
                             className="form-control"
                             type="number"
@@ -79,7 +79,7 @@ function MyOrders() {
                         
                             value="918012175854"
                             required
-                            onkeydown="return event.keyCode !== 69"
+                            onKeyDown="return event.keyCode !== 69"
                           />
                         </div>
                         <div className="input_form">
@@ -444,7 +444,7 @@ function MyOrders() {
                     <div className="settings_section">
                       <div className="settings_section_inner">
                         <h4 className="settings_section_inner_text">Notification</h4> 
-                        <label className="switch" for="checkbox">
+                        <label className="switch" htmlFor="checkbox">
                           <input type="checkbox" id="checkbox" />
                           <div className="slider round"></div>
                         </label>

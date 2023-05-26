@@ -112,8 +112,8 @@ const AddToCart = () => {
                       <p className="order_sub_title_header">Select Pick Up Details
                       </p>
                       <div className="select_picks">
-                      <input type="radio" name="honey" id="honey1"/> <label for="honey1">Take away</label>
-                      <input type="radio" name="honey" id="honey2"/> <label for="honey2">Dine in</label>
+                      <input type="radio" name="honey" id="honey1"/> <label htmlFor="honey1">Take away</label>
+                      <input type="radio" name="honey" id="honey2"/> <label htmlFor="honey2">Dine in</label>
                   </div>
                 </div>
                     <div className="order_sub_title">
@@ -141,7 +141,7 @@ const AddToCart = () => {
                       <p className="order_sub_title_header">Loyalty Points</p>
                       
                       <div className="">
-                        <input type="checkbox" name="size" id="cream2"/> <label for="cream2">12 Loyalty points applicable for this Coffee.</label>
+                        <input type="checkbox" name="size" id="cream2"/> <label htmlFor="cream2">12 Loyalty points applicable for this Coffee.</label>
                       </div>
                     
                   </div>

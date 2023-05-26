@@ -1,7 +1,7 @@
 import React from 'react'
 
 function LimitedperiodOffer(props) {
-  const { title , innerSection ,offerPrice ,sec ,min,hour} = props
+  const { title , innerSection ,offerPrice ,sec ,min,hour ,img} = props
   return (
     <>
     <div className="limited_card">
@@ -15,7 +15,7 @@ function LimitedperiodOffer(props) {
                   </div>
                 </div>
                 <div className="limited_card_img">
-                  {/* <img src="./assets/images/limited_pro_1.png" alt="img"/> */}
+                  <img src={img} alt="img"/>
                   <div className="offer_text">
                     <p>{offerPrice && offerPrice}</p>
                   </div>
